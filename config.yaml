@@ -1,0 +1,10 @@
+# Hold the configuration for the CTP driver
+MD_FRONT_IP     : "tcp://180.168.146.187:10010"
+TRADER_FRONT_IP : "tcp://180.168.146.187:10000"
+# MD_FRONT_IP     : "tcp://180.168.146.187:10031"
+# TRADER_FRONT_IP : "tcp://180.168.146.187:10030"
+BROKER_ID   : "9999"
+INVESTOR_ID : YOUR_INVESTOR_ID
+PASSWORD    : YOUR_PASSWORD
+MQ_PUB_ADDR : "tcp://*:10000"
+MQ_SUB_ADDR : "tcp://localhost:10000"
